@@ -1,0 +1,98 @@
+/* Background */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f5f7fb;
+}
+
+/* Main Container */
+.dashboard {
+  padding: 30px;
+}
+
+/* Header */
+.dashboard h1 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+select, input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+/* KPI Cards */
+.kpi-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.kpi-card {
+  flex: 1;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.kpi-card h4 {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.kpi-card p {
+  font-size: 22px;
+  font-weight: bold;
+  color: #111;
+}
+
+/* Charts */
+.chart-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.chart-box {
+  flex: 1;
+  min-width: 350px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Insights */
+.insights {
+  margin-top: 25px;
+  padding: 20px;
+  background: #ffffff;
+  border-left: 6px solid #4CAF50;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.insights h3 {
+  margin-bottom: 10px;
+}
+
+.insights p {
+  margin: 6px 0;
+}
+
+/* Loading / Error */
+.status {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
