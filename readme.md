@@ -70,15 +70,6 @@ npm start
 
 ---
 
-## 💡 Learnings
-
-* Built REST APIs for analytics
-* Processed real-world data from CSV
-* Designed interactive dashboards
-* Deployed full-stack application
-
----
-
 ## 👨‍💻 Author
 
 Shrikant Bhole
