@@ -6,7 +6,7 @@ A full-stack analytics dashboard that provides insights into sales data using in
 
 ## 🚀 Live Demo
 
-* 🌐 Frontend: (Add Netlify link here)
+* 🌐 Frontend: https://69e728a5a27be11920ff1b8e--deluxe-crumble-4d4ba1.netlify.app/
 * 🔗 Backend API: https://analytics-dashboard-gxyp.onrender.com
 
 ---
@@ -21,15 +21,19 @@ A full-stack analytics dashboard that provides insights into sales data using in
 ---
 
 ## ✨ Features
-
-* 📊 Total sales KPI
-* 📈 Top products (Bar chart)
-* 🥧 Category-wise sales (Pie chart)
-* 🔍 Product search
-* 🎯 Category filter
-* 💡 Business insights
-
+- KPI dashboard (Total Sales)
+- Bar chart (Top Products)
+- Pie chart (Category Sales)
+- Search functionality
+- Category filter
+- Insights generation
 ---
+
+## 💡 Learnings
+- Built REST APIs using Express
+- Processed real-world CSV data
+- Designed interactive dashboards
+- Deployed full-stack apps
 
 ## 📂 Project Structure
 
