@@ -36,9 +36,9 @@ function App() {
     setError("");
 
     Promise.all([
-      axios.get("http://localhost:5000/total-sales"),
-      axios.get(`http://localhost:5000/top-products?category=${selectedCategory}`),
-      axios.get("http://localhost:5000/category-sales")
+      axios.get("https://analytics-dashboard-gxyp.onrender.com/total-sales"),
+      axios.get(`https://analytics-dashboard-gxyp.onrender.com/top-products?category=${selectedCategory}`),
+      axios.get("https://analytics-dashboard-gxyp.onrender.com/category-sales")
     ])
       .then(([t, p, c]) => {
         setTotalSales(t.data.totalSales);

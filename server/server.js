@@ -9,7 +9,9 @@ app.use(cors());
 let salesData = [];
 
 // Load CSV data
-fs.createReadStream("data.csv")
+const path = require("path");
+
+fs.createReadStream(path.join(__dirname, "data.csv"))
   .pipe(csv())
   .on("data", (row) => {
     salesData.push(row);
@@ -22,8 +24,10 @@ app.get("/", (req, res) => {
   res.send("Server running 🚀");
 });
 
-app.listen(5000, () => {
-  console.log("Server running on port 5000");
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
 
 app.get("/total-sales", (req, res) => {
